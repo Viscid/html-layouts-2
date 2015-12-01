@@ -1,0 +1,55 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #CCC;
+}
+
+.section {
+  margin: 2em;
+  padding: 1em 2em;
+  line-height: 1.5em;
+  background-color: white;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: white;
+  width: 150px;
+  height: 2.5em;
+  line-height: 2.5em;
+  margin: 1em 1em 1em 0em;
+}
+
+#redButton {
+  background-color: #d0021b;
+}
+
+#blueButton {
+  background-color: #4a90e2;
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin: 1em auto;
+}
+
+footer {
+  background-color: #333;
+  height: 50px;
+}
+
+.footerLink
+{
+  display: inline-block;
+  float: right;
+  margin-right: 1em;
+  line-height: 50px;
+  color: white;
+  font-size: 1.5em;
+}

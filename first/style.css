@@ -4,18 +4,13 @@
 
 body {
  margin: 0;
- padding: 0;
-
-}
-
-.header
-{
+ padding: 1%;
 }
 
  .topBox
  {
    display: inline-block;
-   width: calc(93% / 3);
+   width: calc(98% / 3);
    height: 150px;
  }
 
@@ -25,6 +20,7 @@ body {
 
 #topBoxMiddle {
   background-color: #4a90e2;
+  margin: 0 1%;
 }
 
 #topBoxRight {
@@ -33,6 +29,42 @@ body {
 
 p
 {
-  margin: 1%;
-  padding: 0.5em 0em;
+  line-height: 1.5em;
+  font-family: sans-serif;
+}
+
+.middleLeft
+{
+  display: inline-block;
+  width: 30%;
+  height: 400px;
+  background-color: #d0021b;
+}
+
+.middleRight
+{
+  display: inline-block;
+  width: 70%;
+  height: 400px;
+  background-color: #4a90e2;
+}
+
+footer {
+  margin-top: 1em;
+}
+
+.bottomLeft {
+  display: inline-block;
+  height: 200px;
+  width: 60%;
+  background-color: #4a90e2;
+}
+
+.bottomRight {
+  display: inline-block;
+  background-color: #4a4a4a;
+  height: 200px;
+  width: 40%;
+  border-left: 50px solid #d0021b;
+  border-right: 50px solid #d0021b;
 }
